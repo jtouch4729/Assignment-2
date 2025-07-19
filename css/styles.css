@@ -4,8 +4,8 @@ Student ID: 5154729
 */
 
 /* Type selector applies a light green background color to all body elements */
-body {
-    background-color: #E6F4EA;
+h1 {
+    color: #007A3D;
 }
 
 /* Class selector applies a green border color around form fields*/
