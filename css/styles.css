@@ -1,0 +1,31 @@
+/*
+Student Name: Johnny Touch
+Student ID: 5154729
+*/
+
+/* Type selector applies a light green background color to all body elements */
+body {
+    background-color: #E6F4EA;
+}
+
+/* Class selector applies a green border color around form fields*/
+.form-fields {
+    border: 2px solid #007A3D;
+}
+
+/* ID selector applies the Amiri font to an element */
+#famous-quote {
+    font-family: "Amiri", serif;
+}
+
+/* Pseduo-class selector applies an underline when hovering over links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Attrivute selector which targets input elements with type submit and applies a green background with
+white text */
+input[type="submit"] {
+    background-color: #007A3D;
+    color: #fff
+}
