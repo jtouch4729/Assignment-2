@@ -5,7 +5,7 @@ Student ID: 5154729
 
 /* Set root HTML element using font shorthand property and background color*/
 html {
-    background-color: #E6F4EA;
+    background-color: #FFF;
     font: normal small-caps normal 20px "Amiri", serif;
 }
 
@@ -16,7 +16,7 @@ body {
     margin: auto;
     padding: 2rem;
     border: 0.5rem solid #007A3D;
-    background-color: #d9f0e4
+    background-color: #d9f0e4;
 }
 
 /* Added padding to main, aside, used floats to position main and aside for 70/30 layout and
@@ -36,6 +36,12 @@ aside {
 
 footer {
     clear: both;
+    font-size: 0.9rem;
+    /* Decreased font size of the footer */
+    background-image: linear-gradient(to right, #007A3D, #E6F4EA);
+    /* Added gradient background */
+    text-align: center;
+    /* Center footer text */
 }
 
 /* Type selector applies a light green background color to all body elements */
@@ -61,6 +67,6 @@ a:hover {
 /* Attribute selector which targets input elements with type submit and applies a green background with
 white text */
 input[type="submit"] {
-    background-color: #FFFF;
-    color: #FFFF
+    background-color: #007A3D;
+    color: #FFF;
 }
