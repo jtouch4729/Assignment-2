@@ -62,7 +62,7 @@ blockquote {
     border-left: 0.5rem solid #007A3D;
     /* Added green left border */
     width: 80%;
-    /* Reduced width */
+    /* Made width responsive */
     margin: 1rem auto;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
     /* Created a lifting effect */
@@ -83,7 +83,7 @@ figure img {
     margin: 0 auto;
     /* Centered the image */
     width: 80%;
-    /* Reduced width of image using %*/
+    /* Made width responsive */
     border: 0.2rem solid #007A3D;
     border-radius: 0.5rem;
 }
@@ -96,7 +96,15 @@ figcaption {
     text-align: center;
 }
 
+/* Added styling to iframe to add a green border, make it block level, center iframe,
+and make width responsive */
 
+iframe {
+    border: 0.3rem solid #007A3D;
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+}
 
 /* Type selector applies a light green background color to all body elements */
 h1 {
