@@ -60,11 +60,43 @@ blockquote {
     background-color: #F9F9F9;
     padding: 1rem;
     border-left: 0.5rem solid #007A3D;
+    /* Added green left border */
     width: 80%;
+    /* Reduced width */
     margin: 1rem auto;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
     /* Created a lifting effect */
 }
+
+/* Added styling to figure, figcaption, and img */
+
+figure {
+    border: 0.3rem solid #007A3D;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #fce8eeea;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    /* Centered the image */
+    width: 80%;
+    /* Reduced width of image using %*/
+    border: 0.2rem solid #007A3D;
+    border-radius: 0.5rem;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    /* Decreased font size */
+    font-variant: small-caps;
+    /* Adjusted to small caps */
+    text-align: center;
+}
+
+
 
 /* Type selector applies a light green background color to all body elements */
 h1 {
