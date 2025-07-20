@@ -34,14 +34,12 @@ aside {
     padding: 1rem;
 }
 
+/* Decreased font size of the footer, added gradient background, centered footer text */
 footer {
     clear: both;
     font-size: 0.9rem;
-    /* Decreased font size of the footer */
     background-image: linear-gradient(to right, #d9f0e4, #7a0025ea);
-    /* Added gradient background */
     text-align: center;
-    /* Center footer text */
 }
 
 /* Added header styling and increased font size, changed color, added gradient background, 
@@ -55,17 +53,15 @@ header {
 
 /* Added styling to blockquote */
 
+/* Added green left border, decreased width, and created a lifting effect */
 blockquote {
     font-style: italic;
     background-color: #F9F9F9;
     padding: 1rem;
     border-left: 0.5rem solid #007A3D;
-    /* Added green left border */
     width: 80%;
-    /* Decreased width */
     margin: 1rem auto;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-    /* Created a lifting effect */
 }
 
 /* Added styling to figure, figcaption, and img */
@@ -74,25 +70,24 @@ figure {
     border: 0.3rem solid #007A3D;
     border-radius: 0.5rem;
     padding: 1rem;
-    background-color: #fce8eeea;
+    background-color: #F9F9F9;
     text-align: center;
 }
 
+/* Centered the image and decreased width */
 figure img {
     display: block;
     margin: 0 auto;
-    /* Centered the image */
     width: 80%;
-    /* Decreased width */
     border: 0.2rem solid #007A3D;
     border-radius: 0.5rem;
 }
 
+/* Decreased font size and adjusted to small caps */
 figcaption {
     font-size: 0.9rem;
-    /* Decreased font size */
+
     font-variant: small-caps;
-    /* Adjusted to small caps */
     text-align: center;
 }
 
@@ -122,11 +117,6 @@ h2 {
     text-align: center;
 }
 
-/* Class selector applies a green border color around form fields*/
-.form-fields {
-    border: 2px solid #007A3D;
-}
-
 /* Added styling to ID selector famous-quote to include a border, box shadow, 
 decrease width, font-family, style, color, padding, and center using margin */
 #famous-quote {
@@ -143,11 +133,11 @@ decrease width, font-family, style, color, padding, and center using margin */
 
 /* Added styling for links and lists and updated pseduo-class selector */
 
+/* Green color for normal links and removed the underline */
 a:link {
     color: #007A3D;
-    /* Green color for normal links */
     text-decoration: none;
-    /* Remove the underline */
+
 }
 
 a:visited {
@@ -155,23 +145,67 @@ a:visited {
     /* Purple color for visited links */
 }
 
+/* Pseudo-class selector applies an underline when hovering over links */
+
+/* Reddish color when hovering over */
 a:hover {
     color: #7a0025ea;
-    /* Reddish color when hovering over */
     text-decoration: underline;
 }
 
+/* Orange color when clicked */
 a:active {
     color: #FFA500;
-    /* Orange color when clicked */
 }
 
+/* Remove the bullets remove indentation */
 ul {
     list-style-type: none;
-    /* Remove the bullets */
     padding-left: 0;
-    /* Remove indentation */
 }
+
+/* Added styling to table */
+
+/* Made table full-width with collpased borders and set bottom margin to use rem */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+/* Aligned text left, changed the font weight and variant and colour and 
+set a background colour */
+th {
+    text-align: left;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: #F9F9F9;
+    color: #007A3D;
+    padding: 0.5rem;
+}
+
+/* Set padding and borders use rem units */
+td {
+    border: 0.1rem solid #007A3D;
+    padding: 0.5rem;
+}
+
+/* Alternate row colors with nth-child */
+tr:nth-child(even) {
+    background-color: #ffdee8ea;
+}
+
+/* Highlight rows on hover */
+tr:hover {
+    background-color: #D0F0C0;
+}
+
+
+/* Class selector applies a green border color around form fields*/
+.form-fields {
+    border: 2px solid #007A3D;
+}
+
 
 /* Attribute selector which targets input elements with type submit and applies a green background with
 white text */
