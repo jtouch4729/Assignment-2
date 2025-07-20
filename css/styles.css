@@ -200,6 +200,25 @@ tr:hover {
     background-color: #D0F0C0;
 }
 
+/* Added styling to form labels and inputs */
+
+/* Styled form-label and applied font variant, weight and colour */
+.form-label {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #007A3D;
+}
+
+/* Styledform-control with padding, border, rounded corners, spacing,
+adjusted widths so that all form controls are the same width using rem units */
+.form-control {
+    padding: 0.5rem;
+    border: 0.1rem solid #007A3D;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
 
 /* Class selector applies a green border color around form fields*/
 .form-fields {
