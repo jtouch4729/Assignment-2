@@ -3,11 +3,13 @@ Student Name: Johnny Touch
 Student ID: 5154729
 */
 
-/* */
+/* Set root HTML element using font shorthand property and background color*/
 html {
     background-color: #E6F4EA;
     font: normal small-caps normal 20px "Amiri", serif;
 }
+
+/* Applied max width, center content with margin, padding, border, and background color */
 
 body {
     max-width: 1200px;
@@ -15,6 +17,25 @@ body {
     padding: 2rem;
     border: 0.5rem solid #007A3D;
     background-color: #d9f0e4
+}
+
+/* Added padding to main, aside, used floats to position main and aside for 70/30 layout and
+set footer to have clear */
+
+main {
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    padding: 1rem;
+}
+
+footer {
+    clear: both;
 }
 
 /* Type selector applies a light green background color to all body elements */
