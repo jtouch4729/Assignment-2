@@ -238,6 +238,7 @@ white text */
 input[type="submit"] {
     background-color: #007A3D;
     color: #FFF;
+    width: 100%;
 }
 
 /* Added responsive design to adjust layout and styles for smaller screens */
