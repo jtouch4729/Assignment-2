@@ -9,6 +9,14 @@ html {
     font: normal small-caps normal 20px "Amiri", serif;
 }
 
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    border: 0.5rem solid #007A3D;
+    background-color: #d9f0e4
+}
+
 /* Type selector applies a light green background color to all body elements */
 h1 {
     color: #007A3D;
@@ -32,6 +40,6 @@ a:hover {
 /* Attribute selector which targets input elements with type submit and applies a green background with
 white text */
 input[type="submit"] {
-    background-color: #007A3D;
-    color: #fff
+    background-color: #FFFF;
+    color: #FFFF
 }
