@@ -3,6 +3,12 @@ Student Name: Johnny Touch
 Student ID: 5154729
 */
 
+/* */
+html {
+    background-color: #E6F4EA;
+    font: normal small-caps normal 20px "Amiri", serif;
+}
+
 /* Type selector applies a light green background color to all body elements */
 h1 {
     color: #007A3D;
@@ -15,7 +21,7 @@ h1 {
 
 /* ID selector applies the Amiri font to an element */
 #famous-quote {
-    font-family: "Amiri", serif;
+    color: #007A3D;
 }
 
 /* Pseduo-class selector applies an underline when hovering over links */
@@ -23,7 +29,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Attrivute selector which targets input elements with type submit and applies a green background with
+/* Attribute selector which targets input elements with type submit and applies a green background with
 white text */
 input[type="submit"] {
     background-color: #007A3D;
