@@ -44,6 +44,15 @@ footer {
     /* Center footer text */
 }
 
+/* Added header styling and increased font size, changed color, added gradient background, 
+and centered text */
+header {
+    font-size: 2.5rem;
+    color: #007A3D;
+    background-image: linear-gradient(to right, #007A3D, #E6F4EA);
+    text-align: center;
+}
+
 /* Type selector applies a light green background color to all body elements */
 h1 {
     color: #007A3D;
