@@ -53,6 +53,19 @@ header {
     text-align: center;
 }
 
+/* Added styling to blockquote */
+
+blockquote {
+    font-style: italic;
+    background-color: #F9F9F9;
+    padding: 1rem;
+    border-left: 0.5rem solid #007A3D;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    /* Created a lifting effect */
+}
+
 /* Type selector applies a light green background color to all body elements */
 h1 {
     color: #007A3D;
