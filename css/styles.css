@@ -141,9 +141,36 @@ decrease width, font-family, style, color, padding, and center using margin */
     text-align: center;
 }
 
-/* Pseduo-class selector applies an underline when hovering over links */
+/* Added styling for links and lists and updated pseduo-class selector */
+
+a:link {
+    color: #007A3D;
+    /* Green color for normal links */
+    text-decoration: none;
+    /* Remove the underline */
+}
+
+a:visited {
+    color: #480082;
+    /* Purple color for visited links */
+}
+
 a:hover {
+    color: #7a0025ea;
+    /* Reddish color when hovering over */
     text-decoration: underline;
+}
+
+a:active {
+    color: #FFA500;
+    /* Orange color when clicked */
+}
+
+ul {
+    list-style-type: none;
+    /* Remove the bullets */
+    padding-left: 0;
+    /* Remove indentation */
 }
 
 /* Attribute selector which targets input elements with type submit and applies a green background with
