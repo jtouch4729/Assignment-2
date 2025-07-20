@@ -38,7 +38,7 @@ footer {
     clear: both;
     font-size: 0.9rem;
     /* Decreased font size of the footer */
-    background-image: linear-gradient(to right, #007A3D, #E6F4EA);
+    background-image: linear-gradient(to right, #d9f0e4, #7a0025ea);
     /* Added gradient background */
     text-align: center;
     /* Center footer text */
@@ -49,13 +49,24 @@ and centered text */
 header {
     font-size: 2.5rem;
     color: #007A3D;
-    background-image: linear-gradient(to right, #007A3D, #E6F4EA);
+    background-image: linear-gradient(to right, #d9f0e4, #7a0025ea);
     text-align: center;
 }
 
 /* Type selector applies a light green background color to all body elements */
 h1 {
     color: #007A3D;
+}
+
+/* Add styling to h2 section headers */
+
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Amiri", serif;
+    color: #007A3D;
+    text-align: center;
 }
 
 /* Class selector applies a green border color around form fields*/
