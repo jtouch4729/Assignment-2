@@ -62,7 +62,7 @@ blockquote {
     border-left: 0.5rem solid #007A3D;
     /* Added green left border */
     width: 80%;
-    /* Made width responsive */
+    /* Decreased width */
     margin: 1rem auto;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
     /* Created a lifting effect */
@@ -83,7 +83,7 @@ figure img {
     margin: 0 auto;
     /* Centered the image */
     width: 80%;
-    /* Made width responsive */
+    /* Decreased width */
     border: 0.2rem solid #007A3D;
     border-radius: 0.5rem;
 }
@@ -97,7 +97,7 @@ figcaption {
 }
 
 /* Added styling to iframe to add a green border, make it block level, center iframe,
-and make width responsive */
+and decreased width */
 
 iframe {
     border: 0.3rem solid #007A3D;
@@ -127,9 +127,18 @@ h2 {
     border: 2px solid #007A3D;
 }
 
-/* ID selector applies the Amiri font to an element */
+/* Added styling to ID selector famous-quote to include a border, box shadow, 
+decrease width, font-family, style, color, padding, and center using margin */
 #famous-quote {
-    color: #007A3D;
+    border: 0.3rem solid #007A3D;
+    box-shadow: 0 0.5 rem 1rem rgba(0, 0, 0, 0.5);
+    width: 80%;
+    font-family: "Amiri", serif;
+    font-style: italic;
+    color: #7a0025ea;
+    padding: 1rem;
+    margin: 1rem auto;
+    text-align: center;
 }
 
 /* Pseduo-class selector applies an underline when hovering over links */
